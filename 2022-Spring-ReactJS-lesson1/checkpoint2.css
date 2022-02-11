@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.class1 {
+    background-color: antiquewhite;
+}
+
+#id1 {
+    color: darkgreen;
+}
+
+#id2 {
+    color: darkcyan;
+}
+
+#id3 {
+    color: darkmagenta;
+}
