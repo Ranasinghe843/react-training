@@ -1,9 +1,10 @@
 //import { database } from '@/database.js';
 import { database } from '../database.js';
 import { onValue, ref, off } from 'firebase/database';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function Demo3() {
+
     useEffect(() => {
         const dataRef = ref(database, '/');
         onValue(dataRef, (snap) => {

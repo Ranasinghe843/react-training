@@ -6,10 +6,10 @@ import React from 'react';
 export default function Demo2() {
     const createData= () => {
         let data = {
-            key: 'value',
+            key: 'values',
             otherkey: 'other value',
         }
-        const dataRef = ref(database, '/added');
+        const dataRef = ref(database, '/added2');
         set(dataRef, data)
         .then(() => {
             console.log("Set was successful");
